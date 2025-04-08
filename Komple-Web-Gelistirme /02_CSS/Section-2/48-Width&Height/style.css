@@ -1,0 +1,13 @@
+* {
+  /* margin: 0; */
+}
+
+#showcase {
+  background-color: #2e4c6d;
+  color: white;
+  height: 500px; /* 100% yukseklik */
+}
+
+#how-it-works {
+  background-color: #fc997c;
+}
