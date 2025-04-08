@@ -1,0 +1,17 @@
+* {
+  /* margin: 0; */
+  box-sizing: border-box;
+}
+
+#showcase {
+  background-color: #2e4c6d;
+  color: white;
+  height: 500px; /* 100% yukseklik */
+  width: 100%;
+  padding: 10px;
+  border: 5px solid red;
+}
+
+#how-it-works {
+  background-color: #fc997c;
+}
