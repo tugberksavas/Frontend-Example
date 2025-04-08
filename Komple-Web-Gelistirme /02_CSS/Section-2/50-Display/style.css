@@ -1,0 +1,27 @@
+.box {
+  height: 60px;
+  width: 60px;
+  display: inline-block;
+}
+
+#first {
+  background-color: red;
+}
+
+#second {
+  background-color: green;
+}
+
+#third {
+  background-color: blue;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  background-color: red;
+}
