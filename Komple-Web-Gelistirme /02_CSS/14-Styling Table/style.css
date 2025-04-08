@@ -1,0 +1,47 @@
+* {
+  /* border: 1px solid purple;  */
+  margin: 0;
+  padding: 0;
+  border-collapse: collapse;
+}
+
+table {
+  width: 100%;
+}
+
+.table-blue th {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.table-green th {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+table th {
+  text-align: left;
+}
+
+table td,
+table th {
+  border: 1px solid #ddd;
+  padding: 6px;
+}
+
+table tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: greenyellow;
+}
+
+.text-ortalama {
+  text-align: center;
+}
+
+tbody tr {
+  cursor: pointer;
+  text-align: center;
+}

@@ -1,0 +1,22 @@
+* {
+  border: 2px solid purple;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  color: blue;
+}
+
+#section-one {
+  background-color: aqua;
+  width: 50%;
+  height: 100px;
+  overflow: auto;
+}
+
+#section-two {
+  color: brown;
+  background-color: beige;
+  width: 300px;
+}

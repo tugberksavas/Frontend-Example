@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Ingerit</title>
+    <style>
+        body {
+            color: brown;
+            font-size: 20px;
+        }
+
+        ul {
+            color: darkgoldenrod;
+            font-size: 15px;
+        }
+
+        li {
+            color: yellowgreen;
+            text-decoration: none;
+
+        }
+
+        .orange {
+            color: orange;
+        }
+
+        #passive {
+            color: gray;
+            font-size: 25px;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: inherit;
+        }
+
+        span {
+            color: red;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Komple Uygulamali Web Gelistirme</h1>
+    <ul>
+        <li id="passive" class="orange">HTML</li>
+        <li>CSS</li>
+        <li class="orange">JavaScript</li>
+        <li>
+            <a href="#">Jquery</a>
+        </li>
+    </ul>
+
+    <div style="color: aqua;">Lorem ipsum dolor sit <span> amet consectetur,</span> adipisicing elit. Accusamus, hic.
+    </div>
+    <div style="color: greenyellow;">Lorem ipsum dolor sit <span> amet consectetur,</span> adipisicing elit. Accusamus,
+        hic.</div>
+    <div>Lorem ipsum dolor sit <span> amet consectetur,</span> adipisicing elit. Accusamus, hic.</div>
+</body>
+
+</html>
