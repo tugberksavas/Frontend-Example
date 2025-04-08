@@ -1,0 +1,22 @@
+* {
+  /* border: 2px solid purple; */
+}
+
+#container {
+  width: 1440px;
+  background-color: gray;
+}
+
+.blog-post-container {
+  width: 75%;
+  background-color: aquamarine;
+}
+
+#other-posts {
+  width: 25%;
+  background-color: lightblue;
+}
+
+.author-box {
+  border: 1px solid black;
+}
