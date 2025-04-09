@@ -1,0 +1,15 @@
+.descendant-selector div p {
+  background-color: red;
+}
+
+.child-selector div > p {
+  background-color: blue;
+}
+
+.adjacent-sibling-selector div + p {
+  background-color: green;
+}
+
+.general-sibling-selector div ~ p {
+  background-color: yellow;
+}
