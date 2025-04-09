@@ -1,0 +1,16 @@
+p {
+  border: 3px solid purple;
+  padding: 5px;
+}
+
+img {
+  width: 300px;
+  float: left;
+  margin-right: 10px;
+}
+
+.clear-fix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
