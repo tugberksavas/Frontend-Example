@@ -1,0 +1,69 @@
+a {
+  border: 2px solid purple;
+  text-decoration: none;
+  color: black;
+  padding: 5px 8px;
+  display: inline-block;
+  width: 50px;
+  text-align: center;
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green; /* blue color on mouse click */
+}
+
+a:hover {
+  color: white;
+  background-color: yellow;
+}
+
+a:active {
+  color: white;
+  background-color: purple;
+}
+
+.pseudo-class-div:hover {
+  background-color: #f2f2f2;
+}
+
+.pseudo-class-p {
+  display: none;
+}
+
+.pseudo-class-div:hover .pseudo-class-p {
+  background-color: red;
+  display: block;
+}
+
+.pseudo-element:first-child {
+  background-color: lawngreen;
+}
+
+.pseudo-element:first-line {
+  color: red;
+  font-weight: bold;
+  word-spacing: 2px; /* spacing between words */
+  letter-spacing: 1px; /* space between letters */
+}
+
+.pseudo-element.about::first-line {
+  color: blue;
+}
+
+p::first-letter {
+  font-size: 45px;
+}
+
+::selection {
+  background-color: yellow;
+}
+
+p::after {
+  content: "--- \261D";
+  color: red;
+  font-size: 30px;
+}
