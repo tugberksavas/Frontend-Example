@@ -1,0 +1,40 @@
+html {
+  height: 2000px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  padding: 10px;
+  border: 5px solid #6d5b95;
+  margin-bottom: 10px;
+}
+
+.navbar {
+  background-color: #feb236;
+  position: fixed;
+  width: 100%;
+  /* z-index: -1; */
+  top: 0;
+}
+
+.content {
+  background-color: #d64161;
+  /* position: fixed; */
+  margin-top: 100px;
+  width: 100%;
+  /* z-index: -1; */
+  /* top: 0; */
+  bottom: 0;
+}
+
+.footer {
+  background-color: #ff7b65;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
