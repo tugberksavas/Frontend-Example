@@ -1,0 +1,34 @@
+html {
+  height: 2000px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  padding: 10px;
+  border: 5px solid #6d5b95;
+  margin-bottom: 10px;
+}
+
+.navbar {
+  background-color: #feb236;
+}
+
+.content {
+  background-color: #d64161;
+  position: sticky;
+  top: 0px;
+}
+
+.footer {
+  background-color: #ff7b65;
+}
+
+.sticky {
+  position: sticky;
+  top: 0px;
+}
