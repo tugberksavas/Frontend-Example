@@ -1,0 +1,69 @@
+body {
+  background-color: gray;
+}
+
+h1 {
+  display: none;
+}
+
+/* landscape */
+@media (max-width: 575px) {
+  #phone h1 {
+    display: block;
+  }
+}
+
+/* landscape */
+@media (min-width: 576px) and (max-width: 768px) {
+  body {
+    background-color: green;
+  }
+
+  #landscape h1 {
+    display: block;
+  }
+}
+
+/* tables */
+@media (min-width: 768px) and (max-width: 991px) {
+  body {
+    background-color: red;
+  }
+
+  #tables h1 {
+    display: block;
+  }
+}
+
+/* desktop */
+@media (min-width: 992px) and (max-width: 1199px) {
+  body {
+    background-color: yellow;
+  }
+
+  #desktop h1 {
+    display: block;
+  }
+}
+
+/* large desktop */
+@media (min-width: 1200px) and (max-width: 1399px) {
+  body {
+    background-color: orange;
+  }
+
+  #large h1 {
+    display: block;
+  }
+}
+
+/* xl large desktop */
+@media (min-width: 1400px) {
+  body {
+    background-color: pink;
+  }
+
+  #xlarge h1 {
+    display: block;
+  }
+}
