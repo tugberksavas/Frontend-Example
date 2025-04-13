@@ -1,0 +1,37 @@
+/* Attribute Selector */
+/* a[target] {
+  background-color: red;
+} */
+
+/* [class] {
+  background-color: blue;
+} */
+/*  Attribute Value Selector */
+/* a[class="active"] {
+  background-color: aquamarine;
+} */
+
+/*  Attribute "*" Selector */
+/* [class*="active"] {
+  background-color: aquamarine;
+} */
+
+/* Attribute "~" Selector */
+/* [class~="active"] {
+  background-color: aquamarine;
+} */
+
+/* Attribute "|" Selector */
+/* [class|="active"] {
+  background-color: aquamarine;
+} */
+
+/* Attribute "^" Selector */
+/* [class^="active"] {
+  background-color: aquamarine;
+} */
+
+/* Attribute "$" Selector */
+[class$="active"] {
+  background-color: aquamarine;
+}
