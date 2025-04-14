@@ -1,0 +1,23 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.5rem;
+}
+
+@media (min-width: 576px) {
+  html {
+    font-size: 11px;
+  }
+
+  #kutu-1 h2 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+}
