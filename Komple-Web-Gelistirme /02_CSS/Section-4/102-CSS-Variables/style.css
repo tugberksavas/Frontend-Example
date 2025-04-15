@@ -1,0 +1,27 @@
+:root {
+  /* --gray: #878f99; */
+  --gray: #b2b2b2;
+  --white: #ffffff;
+}
+
+body {
+  --gray: #f18973;
+  background-color: var(--gray);
+}
+
+h2 {
+  border: 2px solid var(--gray);
+}
+
+.container {
+  color: var(--gray);
+  background-color: var(--white);
+  padding: 20px;
+}
+
+button {
+  background-color: var(--white);
+  color: var(--gray);
+  border: 1px solid var(--gray);
+  padding: 5px;
+}
