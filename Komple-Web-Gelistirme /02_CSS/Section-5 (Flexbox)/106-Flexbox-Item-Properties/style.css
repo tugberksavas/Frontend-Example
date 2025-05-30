@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+
+  background-color: #034f84;
+  height: 500px;
+}
+
+.item {
+  background-color: #f7786b;
+  padding: 30px;
+  margin: 20px;
+  color: #fff;
+  font-size: 25px;
+
+  flex: 0 1 200px; /* flex-grow | flex-shrink | flex-basis */
+}
+
+.item-1 {
+  flex: 25%;
+}
+
+.item-2 {
+  flex: 25%;
+}
+
+.item-3 {
+  order: -1;
+  flex: 50%;
+}

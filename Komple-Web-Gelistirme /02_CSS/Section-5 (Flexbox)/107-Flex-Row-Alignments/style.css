@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  /* row-gap: 20px; */
+  /* column-gap: 30px; */
+
+  /* align-items: center; */
+  align-content: center;
+  /* align-content: flex-end; */
+  /* align-content: space-evenly; */
+
+  background-color: #034f84;
+  height: 500px;
+}
+
+.item {
+  background-color: #f7786b;
+  padding: 30px;
+  /* margin: 20px; */
+  color: #fff;
+  font-size: 25px;
+}
