@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
+    <title>Hotel Site Project</title>
+</head>
+
+<body>
+    <!-- <h1>Hotel Site</h1>
+    <button class="btn btn-primary">Button</button>
+    <button class="btn btn-secondary">Button</button>
+    <button class="btn btn-danger">Button</button>
+    <button class="btn btn-warning">Button</button>
+    <button class="btn btn-outline-primary">Button</button> -->
+
+    <!-- navbar -->
+    <header id="home" class="main-header">
+        <div class="navbar">
+            <h1 class="brand">
+                <i class="fas fa-hotel"></i>
+                <span>Deluxe</span>Hotel
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#rooms">Rooms</a></li>
+                    <li><a href="blog.html">Blogs</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="content">
+            <h1>Welcome To Deluxe</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, explicabo?</p>
+            <a href="" class="btn btn-primary">
+                <i class="fas fa-chevron-right"></i>
+                Read More</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- services -->
+        <div id="services" class="icons bg-light">
+            <div class="flex-items">
+                <div>
+                    <i class="fas fa-concierge-bell fa-3x"></i>
+                    <div>
+                        <h3>24/7 Front Dest</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, temporibus.</p>
+                    </div>
+                </div>
+                <div>
+                    <i class="fas fa-utensils fa-3x"></i>
+                    <div>
+                        <h3>Restaurant Bar</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, temporibus.</p>
+                    </div>
+                </div>
+                <div>
+                    <i class="fas fa-bus fa-3x"></i>
+                    <div>
+                        <h3>Transfer Services</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, temporibus.</p>
+                    </div>
+                </div>
+                <div>
+                    <i class="fas fa-spa fa-3x"></i>
+                    <div>
+                        <h3>Spa Suites</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, temporibus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- about -->
+        <section id="about" class="about flex-columns">
+            <div class="row">
+                <div class="column">
+                    <div class="column-1">
+                        <img src="img/about1.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="column-2 bg-secondary">
+                        <h2>Customer Services</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, quo?</p>
+                        <button class="btn btn-outline">Read More</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- gallery -->
+        <sectin id="gallery" class="gallery flex-grid section-padding">
+            <header class="section-header">
+                <h2>Galeri</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, possimus?</p>
+            </header>
+            <div class="row">
+                <div class="column">
+                    <img src="img/1.jpeg" alt="">
+                    <img src="img/2.jpeg" alt="">
+                </div>
+                <div class="column">
+                    <img src="img/3.jpeg" alt="">
+                    <img src="img/4.jpeg" alt="">
+                </div>
+                <div class="column">
+                    <img src="img/1.jpeg" alt="">
+                    <img src="img/2.jpeg" alt="">
+                </div>
+                <div class="column">
+                    <img src="img/3.jpeg" alt="">
+                    <img src="img/4.jpeg" alt="">
+                </div>
+            </div>
+        </sectin>
+        <!-- about -->
+        <section class="about flex-columns flex-reverse">
+            <div class="row">
+                <div class="column">
+                    <div class="column-1">
+                        <img src="img/about2.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="column-2 bg-primary">
+                        <h2>Customer Services</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, quo?</p>
+                        <button class="btn btn-outline">Read More</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- rooms -->
+        <section id="rooms" class="rooms section-padding">
+            <header class="section-header">
+                <h2>Rooms</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, dignissimos.</p>
+            </header>
+            <div class="flex-items">
+                <div class="card">
+                    <img src="img/room1.jpeg" alt="">
+                    <div class="card-body bg-warning">
+                        <h3>Deluxe Room</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                        <button class="btn btn-primary">Book Now</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/room2.jpeg" alt="">
+                    <div class="card-body bg-warning">
+                        <h3>Superior Room</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                        <button class="btn btn-primary">Book Now</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/room3.jpeg" alt="">
+                    <div class="card-body bg-warning">
+                        <h3>Standart Room</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                        <button class="btn btn-primary">Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- teams -->
+        <section id="teams" class="teams section-padding bg-light">
+            <header class="section-header">
+                <h2>Takım</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, ullam.</p>
+            </header>
+            <div class="flex-items">
+                <div>
+                    <img src="img/p1.jpeg" alt="">
+                    <h2>John</h2>
+                    <p>Manager</p>
+                </div>
+                <div>
+                    <img src="img/p2.jpeg" alt="">
+                    <h2>Max</h2>
+                    <p>Manager</p>
+                </div>
+                <div>
+                    <img src="img/p3.jpeg" alt="">
+                    <h2>Angelina</h2>
+                    <p>Manager</p>
+                </div>
+            </div>
+        </section>
+        <!-- contact -->
+        <sectin id="contact" class="contact flex-columns">
+            <div class="row">
+                <div class="column">
+                    <div class="column-1">
+                        <img src="img/contact.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="column-2 bg-light">
+                        <h2>Contact Us</h2>
+                        <form action="" class="contact-form">
+                            <div class="form-control">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-control">
+                                <label for="name">Email</label>
+                                <input type="email" id="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-control">
+                                <label for="name">Phone</label>
+                                <input type="text" id="name" placeholder="Your Phone" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </sectin>
+
+    </main>
+
+    <footer class="footer bg-light">
+        <div class="social">
+            <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+            <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+        </div>
+        <p>Copyright @copy 2025 - Hotel Site</p>
+    </footer>
+
+
+</body>
+
+</html>
