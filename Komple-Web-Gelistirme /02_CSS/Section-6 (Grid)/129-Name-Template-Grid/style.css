@@ -1,0 +1,55 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    "header header header"
+    "sidebar content content"
+    "sidebar . ."
+    "box1 box1 box1"
+    "footer footer footer";
+  gap: 5px;
+}
+
+.header {
+  grid-area: header;
+  background-color: red;
+  text-align: center;
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+
+.content {
+  grid-area: content;
+  background-color: yellow;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.box-1 {
+  grid-area: box1;
+  background-color: green;
+}
+
+.box-3 {
+}
+
+.footer {
+  grid-area: footer;
+  background-color: blue;
+  color: #fff;
+  text-align: center;
+}
+
+.header,
+.content,
+.sidebar,
+.footer,
+.box-1,
+.box-2,
+.box-3 {
+  border: 1px solid #ccc;
+}

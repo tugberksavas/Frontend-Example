@@ -1,0 +1,42 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 20%);
+  grid-template-rows: repeat(2, 20%);
+  gap: 10px;
+  height: 600px;
+  background-color: yellow;
+
+  /* justify-items: stretch; Default value */
+  /* justify-items: center;  */
+  /* Center items horizontally */
+  /* justify-items: start; */
+  /* Align items to the start of the grid cell */
+  /* justify-items: end; */
+  /* Align items to the end of the grid cell */
+  /* align-items: stretch;  */
+  /* Default value */
+  /* align-items: center; */
+  /* Center items vertically */
+  /* align-items: start; */
+  /* Align items to the start of the grid cell */
+  /* align-items: end; */
+  /* Align items to the end of the grid cell */
+
+  /* justify-content: end; */
+  /* Align the grid as a whole to the end of the container */
+  /* justify-content: start; */
+  justify-content: center;
+  /* Align the grid as a whole to the start of the container */
+  align-content: center;
+  /* Center the grid as a whole within the container */
+  /* align-content: start; */
+  /* Align the grid as a whole to the start of the container */
+}
+
+.item {
+  background-color: #f7786b;
+}
+
+.item:nth-child(1) {
+  align-self: self-start;
+}

@@ -1,0 +1,15 @@
+.container {
+  display: grid;
+  /* grid-template-columns: minmax(200px, 500px) 1fr 1fr; */
+  /* grid-template-columns: repeat(3, minmax(200px, 1fr)); */
+  /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.item {
+  background-color: #f7786b;
+  padding: 20px;
+  font-size: 25px;
+  color: #fff;
+}

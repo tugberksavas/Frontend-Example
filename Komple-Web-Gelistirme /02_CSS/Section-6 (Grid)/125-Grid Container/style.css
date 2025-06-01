@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+}
+
+.container {
+  /* display: inline grid; */
+  display: grid;
+  background-color: #034f84;
+  padding: 20px;
+}
+
+.item {
+  background-color: #f7786b;
+  padding: 30px;
+  margin: 20px;
+  color: #fff;
+  font-size: 25px;
+}
