@@ -1,0 +1,38 @@
+:root {
+  --bg-warning: rgba(255, 193, 7, 1);
+}
+
+.navbar {
+  background-color: var(--bg-warning);
+}
+
+.header-down {
+  background-color: var(--bg-warning) !important;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 25vh;
+  object-fit: cover;
+}
+
+#map {
+  height: 450px;
+}
+
+@media (max-width: 768px) {
+  .navbar ul {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 1rem;
+  }
+  .card-img-top {
+    height: 32vh;
+  }
+
+  #map {
+    height: 100%;
+  }
+}
