@@ -57,6 +57,18 @@
   color: #51585e;
 }
 
-.price-wrap .price-discount {
+/* .price-wrap .price-discount {
   font-size: 1.2rem;
+} */
+
+.img-wrap {
+  height: 240px;
+  text-align: center;
+}
+
+.img-wrap img {
+  height: 100%;
+  width: auto;
+  max-width: 100%;
+  object-fit: cover;
 }
