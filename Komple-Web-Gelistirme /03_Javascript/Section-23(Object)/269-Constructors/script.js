@@ -1,7 +1,20 @@
 // Constructors
 
 //Funcktion Contructor
-
+function Product(title, description, price, stock) {
+  //Properties
+  this.title = title;
+  this.description = description;
+  this.price = price;
+  this.stock = stock;
+  //Methods
+  this.display = function () {
+    return `Urun basligi ${this.title} urun aciklamasi : ${this.description} ve fiyat : ${this.price}`;
+  };
+  this.is_active = function () {
+    return this.stock > 0 ? "satista" : "stok yok";
+  };
+}
 
 //Object
 const product1 = new Product("Samsung s25", "iyi telefon", 60000, 100);
